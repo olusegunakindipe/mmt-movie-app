@@ -1,0 +1,23 @@
+.mmt-icons {
+    flex-basis:400px;
+    display: flex
+}
+.icons{
+    margin-right: 5px;
+}
+
+
+.icons-y{
+    position: absolute;
+    z-index: 3
+}
+
+.cross{
+    display: flex;
+}
+
+@media (max-width: 782) {
+    .mmt-icons{
+        flex-basis: 700px;
+    }
+}

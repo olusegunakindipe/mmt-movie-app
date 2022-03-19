@@ -1,0 +1,59 @@
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paginate {
+    padding: 20px 22px;
+    width: 167px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+}
+
+.result-found {
+    margin-left: 5px
+}
+
+.paginate-right {
+    display: flex;
+    padding: 20px 22px;
+}
+
+.pages{
+    width: 92px;
+    height: 44px;
+    font: 'Roboto';
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 18px;
+}
+.paginate-current{
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.pagination-buttons{
+    margin: 0px 10px;
+}
+
+.pagination-button-wrapper{
+    position: relative;
+}
+.img1{
+    position: relative;
+    z-index:1
+}
+.img2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 2;
+}
