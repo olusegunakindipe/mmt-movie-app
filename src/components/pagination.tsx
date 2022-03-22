@@ -10,12 +10,10 @@ interface IResult {
 const Pagination: React.FC<IResult> = ({result, pageNo, setPageNo, maxPages}) :JSX.Element => {
     const onNext = () => {
         pageNo < maxPages - 1 && setPageNo(pageNo + 1);
-        console.log("pageNo", pageNo);
 
     };
     
     const onPrev = () => {
-        console.log("click");
         pageNo > 0 && setPageNo(pageNo - 1)
     };
 

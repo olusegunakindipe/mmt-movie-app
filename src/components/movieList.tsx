@@ -23,8 +23,8 @@ const MovieList: React.FC<MovieProps> = ({ movies }): JSX.Element => {
         <div className='container1'>
             {data && (<SingleMovie movie={data}  />)}
 
-            {movies.map((data) => {
-               return( <div className='movie-list'>
+            {movies.map((data, index) => {
+               return( <div className='movie-list' key={index}>
                    <img src={data.Poster} className="img" onClick={() => handleMovie(data)}/>
                    <div className="details">
                     <p>{data.Title}</p> 
